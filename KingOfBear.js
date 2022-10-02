@@ -576,8 +576,18 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
             case 'sc': {
-                m.reply('https://wa.me/6285822347348')
-              await KingOfBear.sendMessage(m.chat, { audio: { url: `https://sendeyo.com/updownload/file/script/3ce4dc3302a3a7d94813296c142e2684.wav` }, mimetype: 'audio/mpeg', ptt:true }, { quoted: m })
+             let scc =`Hai Sayangku ${pushname} Lagi Nyari Sc Botkuh Yah:v
+
+┏━━━ꕥ〔 📮 *SCRIPT BOT* 〕ꕥ━⬣
+┃✾ *Script :* 
+┃✾ https://youtu.be/lDSHQvws9N0
+┃✾ *Tiktok :* 
+┃✾ https://www.tiktok.com/@raraharsita2/video/7144195854117637402
+┗━━━━━━ꕥ
+_*Jangan Lupa Di Like Dan Subscribe Tod...!!!*_
+_*Gak Subscribe Gak Work Njingg...!!!*_` 
+                m.reply(scc)
+              await KingOfBear.sendMessage(m.chat, { audio: { url: `https://github.com/saipulanuar/Api-Github/raw/main/audio/subscribe.mp3` }, mimetype: 'audio/mpeg', ptt:true }, { quoted: m })
             }
             break        
             case 'chat': {
