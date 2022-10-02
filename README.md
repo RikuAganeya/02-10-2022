@@ -17,7 +17,7 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
 
 ## My Project
-* New script to replace this script [`look here`](https://github.com/saipulanuar/naze) (`MULTI DEVICE `)
+* New script to replace this script [`look here`](https://github.com/saipulanuar/02-10-2022) (`MULTI DEVICE `)
 * WhatsApp Bot normal [`DikaArdnt/Hisoka-Morrow`](https://github.com/DikaArdnt/Hisoka-Morrow) (SC ORI)
 * WhatsApp Bot Multi Device [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
 * WhatsApp Bot Using Library whatsapp-web.js [`hisoka-waweb.js`](https://github.com/Hisoka-Morrou/hisoka-waweb.js/)
@@ -31,8 +31,8 @@ This is Script of WhatsApp multi device, working with [`@adiwajshing/baileys`](h
 
 
 ```bash
-git clone https://github.com/saipulanuar/naze
-cd naze
+git clone https://github.com/saipulanuar/02-10-2022
+cd 02-10-2022
 npm install
 ```
 
@@ -52,8 +52,8 @@ apt update && apt upgrade
 apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
-git clone https://github.com/saipulanuar/naze
-cd naze
+git clone https://github.com/saipulanuar/02-10-2022
+cd 02-10-2022
 npm install
 ```
 
@@ -73,7 +73,7 @@ $ node .
 Bot WhatsApp masih dalam tahap pengembangan, jadi ada beberapa bug
 Koneksi WhatsApp (BETA, tidak berfungsi dengan sempurna)
 
-Editing Number Owner & session name in [`config.js`](https://github.com/saipulanuar/naze/blob/main/config.js)
+Editing Number Owner & session name in [`config.js`](https://github.com/saipulanuar/02-10-2022/blob/main/config.js)
 Get Apikey zenz on [`zenz`](https://zenzapi.xyz/pricing)
 
 
