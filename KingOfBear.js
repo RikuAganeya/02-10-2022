@@ -24,7 +24,7 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© King Of Bear\nYoutube/Sc :\nhttps://youtube.com/c/Nazedev')  //ubah di config biar ngk emror
+const nyoutube = ('© King Of Bear\nYoutube/Sc :\nhttps://youtu.be/lDSHQvws9N0')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const pepek =  `*Official Bot By @${'0'.split('@')[0]}* 
  *Powered By @${'6288279268363'.split('@')[0]}*`
@@ -1524,7 +1524,7 @@ break
             break
         case 'ytmp3': case 'ytaudio': {
                 let { yta } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+                if (!text) throw `Example : ${prefix + command} https://youtu.be/lDSHQvws9N0 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
@@ -1534,7 +1534,7 @@ break
             break
             case 'ytmp4': case 'ytvideo': {
                 let { ytv } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
+                if (!text) throw `Example : ${prefix + command} https://youtu.be/lDSHQvws9N0 360p`
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
