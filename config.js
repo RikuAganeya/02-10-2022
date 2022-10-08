@@ -21,11 +21,11 @@ global.APIKeys = {
 bear = 'FreeApikey'
 
 // Other
-global.owner = ['6288279268363']
-global.ownernomer = "6288279268363"
-global.premium = ['6288279268363']
-global.packname = 'Sticker KingOfBear'
-global.author = 'KingOfBear'
+global.owner = ['6285847218879']
+global.ownernomer = "6285847218879"
+global.premium = ['6285847218879']
+global.packname = 'Sticker PakYan'
+global.author = 'PakYanSukra'
 global.sessionName = 'KingOfBear'
 global.prefa = ['','!','.','#','&']
 global.sp = ''
